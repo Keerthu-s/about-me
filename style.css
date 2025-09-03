@@ -1,0 +1,149 @@
+/* Light Mode (default) */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 700px;
+  margin: 60px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+h3 {
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 4px solid #ddd;
+}
+
+.intro {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #222;
+}
+
+.skills, .interests {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.skills li, .interests li {
+  background: #f4f4f9;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #0073e6;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+
+.dark-mode .container {
+  background: #1e1e1e;
+  color: #eee;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3, 
+.dark-mode p {
+  color: #eee;
+}
+
+.dark-mode .skills li, 
+.dark-mode .interests li {
+  background: #2c2c2c;
+  color: #ddd;
+}
+
+.dark-mode a {
+  color: #66aaff;
+}
+
+.dark-mode .btn {
+  background: #66aaff;
+}
+
+.dark-mode .btn:hover {
+  background: #3388dd;
+}
+
+/* Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #0073e6;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.theme-toggle:hover {
+  background: #005bb5;
+}
