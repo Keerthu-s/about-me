@@ -1,73 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me - Keerthana Selvaraj</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-
-  <div class="container">
-    <h1>Hi, I’m Keerthana 👋</h1>
-    <h3>Aspiring Frontend Developer | AI Tools Explorer | Tech Enthusiast</h3>
-
-    <img src="profilepic.jpeg" alt="Profile Picture" class="profile-pic">
-
-    <p class="intro">
-      I’m Keerthana, a passionate learner stepping into the world of 
-      <strong>web development and AI tools</strong>. I enjoy building websites, 
-      exploring how AI can speed up development, and combining both coding 
-      and creativity to make efficient digital solutions.
-    </p>
-
-    <p class="intro">
-      I believe the future of tech lies in <strong>hybrid skills</strong> — using AI 
-      for speed and automation, while also coding manually to bring full 
-      control and customization. My goal is to become a 
-      <strong>skilled frontend developer</strong> who builds impactful and 
-      user-friendly websites.
-    </p>
-
-    <h2>Skills</h2>
-    <ul class="skills">
-      <li>💻 Web Development: HTML, CSS, JavaScript (learning React)</li>
-      <li>🤖 AI Tools: ChatGPT, Framer AI, Durable, GitHub Copilot, Canva AI</li>
-      <li>⚡ Other Tools: GitHub, Notion, Zapier</li>
-    </ul>
-
-    <h2>Interests</h2>
-    <ul class="interests">
-      <li>🍜 Exploring different cuisines (love spicy food!)</li>
-      <li>🌍 Learning new technologies that make life easier</li>
-      <li>🎯 Building projects that combine AI + coding</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p>📩 Email: <a href="mailto:keerthana949180@gmail.com">keerthana949180@gmail.com</a></p>
-      <p>
-        <a href="https://github.com/Keerthu-s" target="_blank"><i class="fab fa-github"></i> GitHub</a> | 
-        <a href="https://www.linkedin.com/in/keerthana-s-ba720a299" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      </p>
-    </div>
-    <a href="AboutMe.pdf" class="btn" download>📄 Download My Resume</a>
-  </div>
-
-  <!-- Dark Mode Script -->
-  <script>
-    function toggleTheme() {
-      document.body.classList.toggle("dark-mode");
-      const button = document.querySelector(".theme-toggle");
-      if (document.body.classList.contains("dark-mode")) {
-        button.textContent = "☀️";
-      } else {
-        button.textContent = "🌙";
-      }
-    }
-  </script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <h1 style="text-shadow: 2px white;">Hi! I'm Keerthana Selvaraj</h1>
+            <p style="font-size: medium;">Welcome to my personal portfolio website</p>
+        </header>
+        <div class="wrapper">
+        <div class="navi">
+            <div class="box"><a href="#about" target="_self">about me</a></div>
+            <div class="box"><a href="#qualify" target="_self">Qualifications</a></div>
+            <div class="box"><a href="#project" target="_self">Projects</a></div>
+            <div class="box"><a href="#skills" target="_self">Skills</a></div>
+            </div>
+        <section id="about">
+        <h3>About Me</h3>
+        <p>Here you are getting to know about a passionate , enthusiastic Web Developer . Truley looking forward to implement my skills in Frontend Development , creating user friendly-Responsive webpages. </p>
+        </section>
+        <section id="qualify">
+            <h3>Qualifications</h3>
+            <p>B.E - Electronics and Communication Engineering</p>
+            <p>CPGA - 8.3</p>
+        </section>
+        <section id="project">
+            <h3>Pre-Used Product Hub</h3>
+            <p>Developed a E-commerce Website , An online platform to buy and sell second hand Products.</p>
+            <p>Technology behind - HTML, CSS, Javascript</p>
+            <h3>Three Cups</h3>
+            <p>A Fun game created using Web Technology, and handled Game Logic Building , user interface and responsive gameplay</p>
+        </section>
+        <section id="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React(Beginner-Level)</li>
+                <li>Java Programming</li>
+            </ul>
+            <h3>Soft-Skills</h3>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Quick Learner</li>
+                <li>Adaptability</li>
+                <li>Work Determined</li>
+            </ul>
+        </section>
+        </div>
+    </body>
 </html>
